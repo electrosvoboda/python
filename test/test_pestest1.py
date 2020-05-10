@@ -13,21 +13,21 @@ def app(request):
 
 
 def test_add_group(app):
-    app.login(username="admin", password="secret")
+    app.session.login(username="admin", password="secret")
     app.create_group(Group(name="huiz", header="sobaka", footer="wtf"))
-    app.logout()
+    app.session.logout()
 
 
 def test_add_empty_group(app):
-    app.login(username="admin", password="secret")
+    app.session.login(username="admin", password="secret")
     app.create_group(Group(name="", header="", footer=""))
-    app.logout()
+    app.session.logout()
 
 
 def test_contact(app):
-    app.login(username="admin", password="secret")
+    app.session.login(username="admin", password="secret")
     app.create_new_contact(Contact(firstname="Zerg", middle_name="Big", lastname="Fucking",
                                    nickname="Koroleva", mesto_raboti="Cosmos", address="hui znaet gde",
                                    home_phone="+74958550203",
                                    mobile_phone="98801230506", email="zergazaza@mail.ru"))
-    app.logout()
+    app.session.logout()

@@ -2,6 +2,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.webdriver import WebDriver
 from selenium import webdriver
 
+from fixture.session import SessionHelper
+
 driver = webdriver.Firefox('G:\\Program Files\\geckodriver')
 
 
@@ -10,18 +12,10 @@ class Application:
     def __init__(self):
         self.driver = WebDriver()
         self.driver.implicitly_wait(60)
+        self.session = SessionHelper(self)
 
     def open_home_page(self):
         self.driver.get("http://localhost/addressbook/")
-
-    def login(self, username, password):
-        # login addressbook
-        self.open_home_page()
-        self.driver.set_window_size(1936, 1056)
-        self.driver.find_element(By.NAME, "user").send_keys(username)
-        self.driver.find_element(By.ID, "content").click()
-        self.driver.find_element(By.NAME, "pass").send_keys(password)
-        self.driver.find_element(By.CSS_SELECTOR, "input:nth-child(7)").click()
 
     def open_groups_page(self):
         self.driver.find_element(By.LINK_TEXT, "groups").click()
@@ -42,8 +36,7 @@ class Application:
     def return_to_groups_page(self):
         self.driver.find_element(By.LINK_TEXT, "groups").click()
 
-    def logout(self):
-        self.driver.find_element(By.LINK_TEXT, "Logout").click()
+
 
     def destroy(self):
         self.driver.quit()

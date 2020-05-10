@@ -51,7 +51,7 @@
       <recent name="G:\python_test1\python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_pestest1.test_contact">
+  <component name="RunManager" selected="Python tests.pytest for test.test_pestest1.test_contact">
     <configuration name="kiskatest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,7 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_pestest1.test_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test.test_pestest1.test_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,11 +85,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_pestest1.test_contact&quot;" />
+      <option name="_new_target" value="&quot;test.test_pestest1.test_contact&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_contact.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in G:/python_test1/python/test_contact.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,7 +105,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_pes2.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in G:/python_test1/python/test_pes2.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,16 +133,16 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_pestest1.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_pestest1.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_pestest1.test_contact" />
+        <item itemvalue="Python tests.pytest for test.test_pestest1.test_contact" />
         <item itemvalue="Python tests.pytest in test_pestest1.py" />
-        <item itemvalue="Python tests.pytest in test_contact.py" />
-        <item itemvalue="Python tests.pytest in test_pes2.py" />
+        <item itemvalue="Python tests.pytest in G:/python_test1/python/test_contact.py" />
+        <item itemvalue="Python tests.pytest in G:/python_test1/python/test_pes2.py" />
         <item itemvalue="Python.kiskatest" />
       </list>
     </recent_temporary>

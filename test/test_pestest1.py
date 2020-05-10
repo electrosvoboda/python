@@ -1,8 +1,8 @@
-from group import Group
-from application import Application
+from model.group import Group
+from fixture.application import Application
 import pytest
 
-from param_contact import Contact
+from model.param_contact import Contact
 
 
 @pytest.fixture

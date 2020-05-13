@@ -7,7 +7,8 @@ class GroupHelper:
         self.driver = self.app.driver
 
     def open_groups_page(self):
-        self.driver.find_element(By.LINK_TEXT, "groups").click()
+        if not (self.driver.current_url.endswith("/group.php") and len(self.driver.find_elements(By.NAME, "new")) > 0):
+            self.driver.find_element(By.LINK_TEXT, "groups").click()
 
     def changes_field_value(self, field_name, text):
         if text is not None:
@@ -54,4 +55,7 @@ class GroupHelper:
     def return_to_groups_page(self):
         self.driver.find_element(By.LINK_TEXT, "groups").click()
         # select first group
-        self.driver.find_element(By.NAME, "selected[]").click()
+
+    def count(self):
+        self.open_groups_page()
+        return len(self.driver.find_elements_by_name("selected[]"))

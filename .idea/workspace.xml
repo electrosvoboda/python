@@ -57,39 +57,7 @@
       <recent name="G:\python_test1\python\fixture" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_del_group.py">
-    <configuration name="pytest for test_add_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_group&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_add_group.test_add_empty_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_group.test_add_empty_group&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest in test_add_group.py">
     <configuration name="pytest in test_add_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,6 +71,22 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_group.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_create_contact.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_create_contact.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -122,7 +106,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_modify_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_delete_contact.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,17 +118,33 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_modify_group.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_delete_contact.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_deletecontact.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_deletecontact.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_del_group.py" />
-        <item itemvalue="Python tests.pytest in test_modify_group.py" />
         <item itemvalue="Python tests.pytest in test_add_group.py" />
-        <item itemvalue="Python tests.pytest for test_add_group.test_add_empty_group" />
-        <item itemvalue="Python tests.pytest for test_add_group" />
+        <item itemvalue="Python tests.pytest in test_del_group.py" />
+        <item itemvalue="Python tests.pytest in test_create_contact.py" />
+        <item itemvalue="Python tests.pytest in test_delete_contact.py" />
+        <item itemvalue="Python tests.pytest in test_deletecontact.py" />
       </list>
     </recent_temporary>
   </component>
@@ -182,38 +182,42 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2334" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588635536950" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1589405259923">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1590441538523">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589741111614" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590441538523" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1590441538523">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589741111614" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590441538523" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1590441538523">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589741111614" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590441538523" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1590441538523">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589741111614" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590441538523" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1589741111614">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589405259923" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1589405259923">
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589741111614" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1589741111614">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589405259923" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1589405259923">
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589741111614" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1589741111614">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589405259923" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1589405259923">
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589741111614" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1589741111614">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589405259923" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1589206688579">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589206688579" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1589206688579">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589206688579" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1589206688579">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589206688579" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1589206688579">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589206688579" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589741111614" />
     <state x="2381" y="164" key="SettingsEditor" timestamp="1588636355436">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -222,5 +226,16 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2723" y="292" width="569" height="456" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589109248398" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_deletecontact.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

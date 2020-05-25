@@ -44,4 +44,21 @@ class ContactHelper:
         # self.driver.find_element(By.CSS_SELECTOR, "select:nth-child(71) > option:nth-child(14)").click()
         # self.driver.find_element(By.NAME, "theform").click()
         # self.driver.find_element(By.CSS_SELECTOR, "input:nth-child(87)").click()
+        self.driver.find_element(By.NAME, "submit").click()
         self.driver.find_element(By.LINK_TEXT, "home").click()
+
+    def select_first_contact(self):
+        # select first group
+        self.driver.find_element(By.NAME, "selected[]").click()
+
+    def delete_first_contact(self):
+        self.driver.find_element(By.LINK_TEXT, "home").click()
+        self.select_first_contact()
+        self.driver.find_element(By.CSS_SELECTOR, "div.left:nth-child(8) > input:nth-child(1)").click()
+        #self.driver.find_element(By.LINK_TEXT, "home").click()
+        self.driver.find_element(By.ID, "3").click()
+        self.driver.find_element(By.CSS_SELECTOR, ".left:nth-child(8) > input").click()
+        assert self.driver.switch_to.alert.text == "Delete 1 addresses?"
+        self.driver.switch_to.alert.accept()
+        self.driver.find_element(By.LINK_TEXT, "home").click()
+

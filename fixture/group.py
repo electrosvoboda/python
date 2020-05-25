@@ -1,4 +1,5 @@
 from selenium.webdriver.common.by import By
+from model.group import Group
 
 
 class GroupHelper:
@@ -29,6 +30,7 @@ class GroupHelper:
         # submit group creation
         self.driver.find_element(By.NAME, "submit").click()
         self.return_to_groups_page()
+        self.group_cache = None
 
     def select_first_group(self):
         # select first group
@@ -40,6 +42,7 @@ class GroupHelper:
         # submit deletion
         self.driver.find_element(By.NAME, "delete").click()
         self.return_to_groups_page()
+        self.group_cache = None
 
     def modify_first_group(self, new_group_data):
         self.open_groups_page()
@@ -51,6 +54,7 @@ class GroupHelper:
         # submit modification
         self.driver.find_element(By.NAME, "update").click()
         self.return_to_groups_page()
+        self.group_cache = None
 
     def return_to_groups_page(self):
         self.driver.find_element(By.LINK_TEXT, "groups").click()
@@ -59,3 +63,15 @@ class GroupHelper:
     def count(self):
         self.open_groups_page()
         return len(self.driver.find_elements_by_name("selected[]"))
+
+    group_cache = None
+
+    def get_group_list(self):
+        if self.group_cache is None:
+            self.open_groups_page()
+            self.group_cache = []
+            for element in self.driver.find_elements(By.CSS_SELECTOR, "span.group"):
+                text = element.text
+                id = element.find_element_by_name("selected[]").get_attribute("value")
+                self.group_cache.append(Group(name=text, id=id))
+        return list(self.group_cache)

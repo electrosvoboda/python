@@ -26,7 +26,10 @@ class SessionHelper:
             self.logout()
 
     def is_logged_in_as(self, username):
-        return self.driver.find_element_by_xpath('//div/div[1]/form/b').text == "(" + username + ")"
+        return self.get_logged_user() == username
+
+    def get_logged_user(self):
+        return self.driver.find_element_by_xpath('//div/div[1]/form/b').text[1:-1]
 
     def ensure_login(self, username, password):
         if self.is_logged_in():
